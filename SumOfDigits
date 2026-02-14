@@ -1,0 +1,16 @@
+package java_lab;
+
+public class Sum_of_digits {
+	 public static void main(String[] args) {
+       int a=254;
+       int sum=0;
+       int rem;
+       while(a>0) {
+       rem=a%10;
+       sum=sum+rem;
+       a=a/10;
+       }
+       System.out.println("The Number is:"+254);
+       System.out.println("The Sum of Digits are:"+sum);
+}
+};
