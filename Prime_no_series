@@ -1,0 +1,23 @@
+package java_lab;
+import java.util.Scanner;
+public class Prime_no {
+	 public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("SAMEER ACHARA (24EARCS145)");
+		 System.out.println("Enter the range of prime no. series:");
+		 int range=sc.nextInt();
+		 System.out.println("Prime Number Series till:"+range);
+		 for(int i=1;i<=range;i++) {
+			 for(int j=2;j<=i-1;j++) {
+				 if(i%j == 0) {
+					 break;
+				 }
+				 else {
+					 System.out.println(+i);
+					 break;
+				 }
+			 }
+		 }
+	 }
+
+}
