@@ -1,0 +1,19 @@
+package java_lab;
+
+import java.util.Scanner;
+
+public class Factorial_series {
+	 public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("SAMEER ACHARA (24EARCS145)");
+		 System.out.println("Enter the range:");
+		 int n=sc.nextInt();
+		 double sum=1;
+		 double fact=1;
+		 for(int i=2;i<=n;i++) {
+			 fact=fact*i;
+			 sum=sum+(1/fact);
+		 }
+		 System.out.println("Sum of the series up to " + n + " terms is: " + sum);
+	 }
+}
