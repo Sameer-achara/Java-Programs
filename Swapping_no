@@ -1,0 +1,20 @@
+package java_lab;
+import java.util.Scanner;
+public class Swapping {
+	 public static void main(String[] args) {
+		 System.out.println("SAMEER ACHARA (24EARCS145)");
+		 System.out.println("Enter the first number:");
+		 Scanner sc = new Scanner(System.in);
+		 int a = sc.nextInt();
+		 
+		 System.out.println("Enter the second number:");
+		 int b = sc.nextInt();
+		 System.out.println("Values before Swapping:"+a+","+b);
+		 int x;
+		 x=a;
+		 a=b;
+		 b=x;
+		 System.out.println("Values after Swapping:"+a+","+b);
+	 }
+
+}
