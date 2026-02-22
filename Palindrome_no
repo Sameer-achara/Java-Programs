@@ -1,0 +1,24 @@
+package java_lab;
+import java.util.Scanner;
+public class Palindrome {
+	 public static void main(String[] args) {
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("SAMEER ACHARA (24EARCS145)");
+		 System.out.println("Enter the Number:");
+		 int num=sc.nextInt();
+		 int x=num;
+		 int rev=0;
+		 while(num>0) {
+		 int rem = num%10;
+		 rev=rev*10+rem;
+		 num=num/10;
+		 }
+		 if(x == rev) {
+			 System.out.println("Given Number is Palindrome");
+		 }
+		 else {
+			 System.out.println("Given Number is Not Palindrome");
+		 }
+		 
+	 }
+}
